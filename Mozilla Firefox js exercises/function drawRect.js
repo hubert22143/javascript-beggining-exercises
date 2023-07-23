@@ -9,11 +9,6 @@ const width = 100;
 const height = 75;
 const color = 'blue';
 
-function random(min , max){
-    return Math.random() * (max - min) + min;
-
-}
-
 function draw(){
 ctx.clearRect(0,0, canvas.width, canvas.height);
 for(let i = 0; i <=1; i++){
