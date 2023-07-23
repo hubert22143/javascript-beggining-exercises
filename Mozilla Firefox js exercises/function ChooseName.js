@@ -1,16 +1,10 @@
-const names = ['Chris', 'Li Kang', 'Anne', 'Francesca', 'Mustafa', 'Tina', 'Bert', 'Jada']
-const para = document.createElement('p');
+let energia = "Ja dzisiaj energi nie mam, moja energia wynosi null"
+let poziomenergi = prompt("Hubercie, podaj swoj poziom energi");
 
-// Add your code here
-function chooseName(names,para){
-const randomIndex = Math.floor(Math.random() * names.length);
-const randomName = names[randomIndex]
-para.textContent = randomName;
+if(poziomenergi===0){
+    alert("Hubert dzisiaj energi nie ma" + poziomenergi);
+}else if(poziomenergi>0 || poziomenergi<0){
+    alert("Hubert dzisiaj energi nie ma ")
+}else{
+    alert("Hubert dzisiaj energi nie ma");
 }
-chooseName(names,para);
-
-// Don't edit the code below here!
-
-section.innerHTML = ' ';
-
-section.appendChild(para);
