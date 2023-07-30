@@ -1,0 +1,1 @@
+Unfortunately it is not finished exercision, I haven't found appriopriate mysql base for this exercise, due to which I was unable to commit it fully.
