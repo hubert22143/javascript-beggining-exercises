@@ -49,3 +49,36 @@ container.appendChild(content);
 
 // Append the content section div as a child of the container div
 content.appendChild(contentsection);
+
+const p = document.createElement('p');
+p.textContent = "Hey, I'm red!";
+p.style.color = "red";
+container.appendChild(p);
+const h3 = document.createElement('h3');
+h3.textContent = "I'm blue h3!";
+h3.style.color = "blue";
+container.appendChild(h3);
+
+const newdiv = document.createElement('div');
+newdiv.style.width = '500px';
+newdiv.style.height = '500px';
+newdiv.style.border = "black 2px solid";
+newdiv.style.backgroundColor = "pink";
+document.body.appendChild(newdiv)
+const newh1 = document.createElement('h1');
+newh1.textContent = "I'm in a div";
+newdiv.appendChild(newh1)
+const newP = document.createElement('p');
+newP.textContent = "ME TOO!";
+newdiv.appendChild(newP);
+const buttonsDiv = document.querySelector('.buttons');
+buttonsDiv.style.display = 'flex';
+
+
+btn.addEventListener('click', function (e) {
+    console.log(e);
+  });
+
+  btn.addEventListener('click', function (e) {
+    e.target.style.background = 'blue';
+  });
