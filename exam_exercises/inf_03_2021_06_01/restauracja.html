@@ -1,0 +1,57 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restauracja wszystkie smaki</title>
+    <link rel="stylesheet" href="styl_1.css"> 
+</head>
+<body>
+    <header>
+        <div class="header-text">
+            <h1>Witamy w restauracji "Wszystkie Smaki"</h1>
+        </div>
+    </header>
+    <main>
+        <div class="wrapper">
+        <section class="left">
+        <img src="menu.jpg">
+        </section>
+        <section class="right">
+            <h2>U nas dobrze zjesz!</h2>
+            <ol>
+                <li>Obiady od 40zl</li>
+                <li>Przekaski od 10zl</li>
+                <li>Kolacje od 20zl</li>
+            </ol>
+        </section>
+    </div>
+    <div class="wrapper-bottom">
+        <section class="bottom">
+            <div class="form-container">
+                <div class="form-text">
+                <h1>Zarezerwuj stolik on-line</h1>
+            </div>
+                <form method="post" action="rezerwacja.php">
+                    <label for="date">Data (format rrrr-mm-dd); <br>
+                    <input type="date" id="date" name="data"> <br>
+                    <label for="client">Ile osob? <br>
+                    <input type="number" id="client" name="clientnumbers"><br>
+                    <label for="phone">Twoj numer telefonu:<br>
+                    <input type="number" id="phone" name="phonenumber">
+                    <br>
+                    <input type="checkbox">Zgadzam sie na przetwarzanie moichdanych osobowych
+                    <div class="clear-submit">
+                        <button type="reset" >Wyczysc></button>
+                        <button type="submit">Rezerwuj></button>
+                    </div>
+                </form>
+            </div>
+        </section>
+    </div>
+    </main>
+    <footer>
+        <h3>Strone opracowal 09123021470498123</h3>
+    </footer>
+</body>
+</html>
