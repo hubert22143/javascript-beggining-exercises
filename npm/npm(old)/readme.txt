@@ -1,1 +1,0 @@
-Created only in education purposes
